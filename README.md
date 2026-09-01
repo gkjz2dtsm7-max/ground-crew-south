@@ -10,11 +10,11 @@ Every seat and trainee in this app is SAMPLE seed. Not a live hiring hall. Not a
 
 ## Live path
 
-Preferred: https://brucknerdemo.com/ground-crew-south/
+1. Preferred: https://brucknerdemo.com/ground-crew-south/
+2. Public production URL from this ship: https://gkjz2dtsm7-max.github.io/ground-crew-south/
+3. Ownable source: https://github.com/gkjz2dtsm7-max/ground-crew-south
 
-Public production URL from this ship: https://gkjz2dtsm7-max.github.io/ground-crew-south/
-
-This desk is not password locked. Do not mix it into projects 01, 02, 03, 05, land tools, or a hub UI. Do not delete the existing root password door on brucknerdemo.com.
+This desk is not password locked. Do not mix it into projects 01, 02, 03, 05, land tools, or a hub UI. Do not delete the existing root password door on brucknerdemo.com. Custom domain attach is blocked, so GitHub Pages is the public host. No CNAME was published, so the vault keeps brucknerdemo.com.
 
 ## Run
 
@@ -29,11 +29,11 @@ npm run dev
 npm run build
 ```
 
-Static output lands in `dist/`. `vite.config` base is `/ground-crew-south/`. React Router basename is `/ground-crew-south`. See `DEPLOY.md` to attach that path on brucknerdemo.com without touching the vault.
+Static-ownable Vite export for a Grok plan change lives in the separate `ground-crew-south` repo. For a host that serves the desk at `/ground-crew-south/`, see `DEPLOY.md`.
 
 ## Stack
 
-Vite + React + TypeScript + Tailwind CSS + React Router. Seed JSON only. No paid APIs. No login.
+Vite + React + TypeScript + Tailwind CSS. Seed JSON only. No paid APIs. No login.
 
 ## Pages
 

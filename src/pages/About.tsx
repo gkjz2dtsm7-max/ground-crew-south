@@ -1,4 +1,4 @@
-import { LIVE_PATH, PROJECT_ID, PROJECT_NUMBER } from "../types";
+import { LIVE_PATH, PROJECT_ID, PROJECT_NUMBER, PUBLIC_PATH } from "../types";
 import { SampleBadge, SectionKicker } from "../ui";
 
 
@@ -26,9 +26,20 @@ export function AboutPage() {
         >
           {LIVE_PATH}
         </a>
+        <p className="mt-3 font-mono text-[11px] tracking-[0.16em] text-grey uppercase">
+          Preferred path. Vault door stays on the root.
+        </p>
+        <SectionKicker>Public production URL</SectionKicker>
+        <a
+          href={PUBLIC_PATH}
+          className="mt-3 block font-display text-xl tracking-wide text-yellow uppercase underline-offset-4 hover:underline"
+        >
+          {PUBLIC_PATH}
+        </a>
         <p className="mt-3 text-sm text-grey">
           This app is not password locked. Seed records are SAMPLE. Separate
-          repo. Not the vault hub.
+          repo. Not the vault hub. Custom domain attach is blocked, so this
+          ship is public on GitHub Pages.
         </p>
       </section>
 

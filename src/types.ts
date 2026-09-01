@@ -1,4 +1,5 @@
 export const LIVE_PATH = "https://brucknerdemo.com/ground-crew-south/";
+export const PUBLIC_PATH = "https://gkjz2dtsm7-max.github.io/ground-crew-south/";
 export const PROJECT_ID = "brik-04-ground-crew-south";
 export const PROJECT_NUMBER = "04";
 

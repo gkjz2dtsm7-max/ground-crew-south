@@ -8,7 +8,7 @@ import {
   Warehouse,
 } from "lucide-react";
 import { openSeatCount } from "../catalog";
-import { LIVE_PATH } from "../types";
+import { LIVE_PATH, PUBLIC_PATH } from "../types";
 import { SampleBadge, SectionKicker } from "../ui";
 
 
@@ -110,7 +110,10 @@ export function HomePage() {
       </section>
 
       <p className="mt-10 font-mono text-[11px] tracking-[0.18em] text-grey uppercase">
-        Live path · {LIVE_PATH.replace("https://", "")}
+        Preferred path · {LIVE_PATH.replace("https://", "")}
+      </p>
+      <p className="mt-2 font-mono text-[11px] tracking-[0.18em] text-yellow uppercase">
+        Public now · {PUBLIC_PATH.replace("https://", "")}
       </p>
     </div>
   );

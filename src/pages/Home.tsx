@@ -109,10 +109,10 @@ export function HomePage() {
         </ol>
       </section>
 
-      <p className="mt-10 font-mono text-[11px] tracking-[0.18em] text-grey uppercase">
+      <p className="mt-10 break-all font-mono text-[11px] tracking-[0.12em] text-grey uppercase">
         Preferred path · {LIVE_PATH.replace("https://", "")}
       </p>
-      <p className="mt-2 font-mono text-[11px] tracking-[0.18em] text-yellow uppercase">
+      <p className="mt-2 break-all font-mono text-[11px] tracking-[0.12em] text-yellow uppercase">
         Public now · {PUBLIC_PATH.replace("https://", "")}
       </p>
     </div>

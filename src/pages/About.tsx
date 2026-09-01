@@ -22,17 +22,19 @@ export function AboutPage() {
         <SectionKicker>Live path</SectionKicker>
         <a
           href={LIVE_PATH}
-          className="mt-3 block font-display text-2xl tracking-wide text-yellow uppercase underline-offset-4 hover:underline"
+          className="mt-3 block break-all font-mono text-sm tracking-normal text-yellow lowercase underline-offset-4 hover:underline sm:text-base"
         >
           {LIVE_PATH}
         </a>
         <p className="mt-3 font-mono text-[11px] tracking-[0.16em] text-grey uppercase">
           Preferred path. Vault door stays on the root.
         </p>
-        <SectionKicker>Public production URL</SectionKicker>
+        <p className="mt-6 font-mono text-[10px] tracking-[0.28em] text-grey uppercase">
+          Public production URL
+        </p>
         <a
           href={PUBLIC_PATH}
-          className="mt-3 block font-display text-xl tracking-wide text-yellow uppercase underline-offset-4 hover:underline"
+          className="mt-3 block break-all font-mono text-sm tracking-normal text-yellow lowercase underline-offset-4 hover:underline sm:text-base"
         >
           {PUBLIC_PATH}
         </a>

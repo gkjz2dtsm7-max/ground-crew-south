@@ -1,0 +1,48 @@
+{
+  "sample": true,
+  "warning": "Every record in this file is SAMPLE seed. Not a live hiring hall. Not a placement claim.",
+  "seats": [
+    {
+      "id": "gcs-seat-001",
+      "sample": true,
+      "name": "Gulf County storage commissioning helper",
+      "county": "Gulf County, Florida",
+      "geography": "Port St. Joe yards and nearby Gulf County sites",
+      "workType": "storage",
+      "paidOrTrainee": "trainee",
+      "status": "open",
+      "statusLabel": "open SAMPLE",
+      "employer": "SAMPLE contractor",
+      "startWindow": "immediate SAMPLE",
+      "supervises": "SAMPLE yard lead"
+    },
+    {
+      "id": "gcs-seat-002",
+      "sample": true,
+      "name": "Wewahitchka storm restore crew",
+      "county": "Gulf County, Florida",
+      "geography": "Wewahitchka and Gulf County restore routes",
+      "workType": "storm restore",
+      "paidOrTrainee": "paid",
+      "status": "waitlist",
+      "statusLabel": "waitlist SAMPLE",
+      "employer": "SAMPLE utility contractor",
+      "startWindow": "next named storm SAMPLE",
+      "supervises": "SAMPLE restore foreman"
+    },
+    {
+      "id": "gcs-seat-003",
+      "sample": true,
+      "name": "Delta line helper",
+      "county": "Calhoun County, Florida",
+      "geography": "Calhoun or nearby Delta counties",
+      "workType": "line",
+      "paidOrTrainee": "trainee",
+      "status": "closed",
+      "statusLabel": "closed SAMPLE",
+      "employer": "SAMPLE line contractor",
+      "startWindow": "closed SAMPLE",
+      "supervises": "SAMPLE line supervisor"
+    }
+  ]
+}

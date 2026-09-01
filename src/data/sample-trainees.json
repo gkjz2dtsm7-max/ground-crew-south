@@ -1,0 +1,42 @@
+{
+  "sample": true,
+  "warning": "Initials only. Every trainee is fictional SAMPLE. No Social Security numbers. No real people.",
+  "trainees": [
+    {
+      "id": "gcs-tr-001",
+      "sample": true,
+      "initials": "A.R.",
+      "county": "Gulf County, Florida",
+      "willingWork": ["storage", "site build"],
+      "hasCdl": "no",
+      "electricalHours": "unknown",
+      "canStart": "immediately",
+      "mapsToSeatId": "gcs-seat-001",
+      "mapNote": "Gulf storage commissioning helper is open SAMPLE. A.R. can start now on the yard."
+    },
+    {
+      "id": "gcs-tr-002",
+      "sample": true,
+      "initials": "J.M.",
+      "county": "Gulf County, Florida",
+      "willingWork": ["storm restore", "line"],
+      "hasCdl": "yes",
+      "electricalHours": "yes",
+      "canStart": "30 days",
+      "mapsToSeatId": "gcs-seat-002",
+      "mapNote": "Wewahitchka storm restore crew is waitlist SAMPLE. J.M. holds a CDL and electrical hours."
+    },
+    {
+      "id": "gcs-tr-003",
+      "sample": true,
+      "initials": "T.L.",
+      "county": "Calhoun County, Florida",
+      "willingWork": ["line", "site build"],
+      "hasCdl": "no",
+      "electricalHours": "yes",
+      "canStart": "unknown",
+      "mapsToSeatId": "gcs-seat-003",
+      "mapNote": "Delta line helper is closed SAMPLE. T.L. stays on the Gulf bench until a seat reopens."
+    }
+  ]
+}

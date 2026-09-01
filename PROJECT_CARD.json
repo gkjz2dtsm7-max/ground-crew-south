@@ -1,0 +1,11 @@
+{
+  "projectId": "brik-04-ground-crew-south",
+  "name": "Ground Crew South",
+  "series": "BRIK ground energy desk",
+  "number": 4,
+  "oneSentence": "Places local people on storage, line, and storm work.",
+  "livePath": "https://brucknerdemo.com/ground-crew-south/",
+  "notTheProduct": "online school, national job board",
+  "seedCounty": "Gulf County, Florida",
+  "export": "github-and-static-host"
+}

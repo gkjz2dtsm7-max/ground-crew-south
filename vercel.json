@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/ground-crew-south",
+      "destination": "/ground-crew-south/index.html"
+    },
+    {
+      "source": "/ground-crew-south/(.*)",
+      "destination": "/ground-crew-south/index.html"
+    }
+  ]
+}
